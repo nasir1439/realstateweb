@@ -14,7 +14,10 @@ var swiperPopular = new Swiper(".popular__container",{
     centeredSlides:true,
     slidesPerview:'auto',
     loop:true,
-
+    autoplay: {
+        delay: 2000,
+        disableOnInteraction: true,
+    },
     navigation:{
         nextEl:".swiper-button-next",
         prevEl:".swiper-button-prev",
